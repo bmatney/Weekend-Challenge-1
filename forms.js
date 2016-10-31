@@ -19,8 +19,7 @@ $(document).ready(function () {
 
       appendDom(values);
 
-      $('button').click(function(event) {
-        event.preventDefault();
+      $('button').click(function() {
         $(this).closest('.person').remove();
       });
 
